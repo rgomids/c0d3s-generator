@@ -20,6 +20,9 @@ func main() {
 	)
 	for pos, arg := range userArgs {
 		switch arg {
+		case `-h`:
+			help()
+			return
 		case `-l`:
 			lenght, err = strconv.Atoi(userArgs[pos+1])
 			if err != nil {
@@ -74,4 +77,57 @@ func RandStringBytesMaskImprSrc(n int) string {
 	}
 
 	return string(b)
+}
+
+func help() {
+	fmt.Println(`
+	 ___ __ ____ ____ ____      ___ ____ __ _ ____ ____  __ ____ __ ____ 
+	/ __/  (    ( __ / ___)___ / __(  __(  ( (  __(  _ \/ _(_  _/  (  _ \
+       ( (_(  0 ) D ((__ \___ (___( (_ \) _)/    /) _) )   /    \)((  O )   /
+	\___\__(____(____(____/    \___(____\_)__(____(__\_\_/\_(__)\__(__\_)
+
+	-h			Ajuda | Help
+	-l			Tamanho do código | Code Lenght
+	-t			Quantidade de códigos | Quantity Codes
+	-pf			Prefixo do Código | Code Prefix
+	-sf			Sufixo do Código | Code Sufix
+
+	Exemplo | Example: ./c0des-generator -l 25 -t 5 -pf LookThisAlien_ -sf -RightHere
+	Saida | Output:
+		LookThisAlien_DodjKGxptKqLhnAofEZzTQEWW-RightHere
+		LookThisAlien_bHQBNyAbpJqScsxVjfGLUFjGq-RightHere
+		LookThisAlien_oifsbYBkFDAUnmSKKFImnZAED-RightHere
+		LookThisAlien_pxVMpxTqSNkswNuSElcwXXqLM-RightHere
+		LookThisAlien_KyZBuuzwdaGYsQeRYDHeuxhkP-RightHere
+
+			.     .       .  .   . .   .   . .    +  .
+		  .     .  :     .    .. :. .___---------___.
+		       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+		    .  :       .  .  .:../:            . .^  :.:\.
+		        .   . :: +. :.:/: .   .    .        . . .:\
+		 .  :    .     . _ :::/:               .  ^ .  . .:\
+		  .. . .   . - : :.:./.                        .  .:\
+		  .      .     . :..|:                    .  .  ^. .:|
+		    .       . : : ..||        .                . . !:|
+		  .     . . . ::. ::\(                           . :)/
+		 .   .     : . : .:.|. ######              .#######::|
+		  :.. .  :-  : .:  ::|.#######           ..########:|
+		 .  .  .  ..  .  .. :\ ########          :######## :/
+		  .        .+ :: : -.:\ ########       . ########.:/
+		    .  .+   . . . . :.:\. #######       #######..:/
+		      :: . . . . ::.:..:.\           .   .   ..:/
+		   .   .   .  .. :  -::::.\.       | |     . .:/
+		      .  :  .  .  .-:.":.::.\             ..:/
+		 .      -.   . . . .: .:::.:.\.           .:/
+		.   .   .  :      : ....::_:..:\   ___.  :/
+		   .   .  .   .:. .. .  .: :.:.:\       :/
+		     +   .   .   : . ::. :.:. .:.|\  .:/|
+		     .         +   .  .  ...:: ..|  --.:|
+		.      . . .   .  .  . ... :..:.."(  ..)"
+		 .   .       .      :  .   .: ::/  .  .::\
+			
+		 	Rafael Gomides - mrrafagomides@gmail.com
+				Twitter: @HellGomides
+		 		GitHub: RafaelGomides
+	`)
 }
