@@ -12,7 +12,7 @@ import (
 func main() {
 	userArgs := os.Args
 	var (
-		lenght = 7
+		length = 7
 		times  = 1
 		prefix = ``
 		sufix  = ``
@@ -24,7 +24,7 @@ func main() {
 			help()
 			return
 		case `-l`:
-			lenght, err = strconv.Atoi(userArgs[pos+1])
+			length, err = strconv.Atoi(userArgs[pos+1])
 			if err != nil {
 				fmt.Println(`Você deve usar apenas numeros no tamanho solicitado! - `, err)
 			}
@@ -44,7 +44,7 @@ func main() {
 	for index := 0; index < times; index++ {
 		go func() {
 			defer wg.Done()
-			fmt.Println(prefix + RandStringBytesMaskImprSrc(lenght) + sufix)
+			fmt.Println(prefix + RandStringBytesMaskImprSrc(length) + sufix)
 		}()
 	}
 	wg.Wait()
@@ -87,7 +87,7 @@ func help() {
 	\___\__(____(____(____/    \___(____\_)__(____(__\_\_/\_(__)\__(__\_)
 
 	-h			Ajuda | Help
-	-l			Tamanho do código | Code Lenght
+	-l			Tamanho do código | Code Length
 	-t			Quantidade de códigos | Quantity Codes
 	-pf			Prefixo do Código | Code Prefix
 	-sf			Sufixo do Código | Code Sufix
