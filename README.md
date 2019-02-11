@@ -12,13 +12,14 @@ Gera códigos para qualquer coisa que você queira utilizar!
 
 Se você quiser existe um script automatizado do build mais recente do sistema temos a solução. Serve para Linux x86/64. Para baixar [clique aqui](https://github.com/RafaelGomides/c0d3s-generator/releases/download/v1.0/install.sh).
 
-Depois de baixar basta atribuir permissão de execução com `sudo chmod 775 /caminho/para/install.sh`. Depois é só executar o script, vá até o diretrio que ele se encontra e digite `./install.sh`. A senha root é necessária para criar alguns diretórios e criar links.
+Depois de baixar basta atribuir permissão de execução com `sudo chmod 775 /caminho/para/install.sh`. Depois é só executar o script, vá até o diretorio que ele se encontra e digite `./install.sh`. A senha root é necessária para criar alguns diretórios e criar links.
 
 Mas se preferir pode baixar o binario e ser feliz com ele. [Clica aqui para baixar](https://github.com/RafaelGomides/c0d3s-generator/releases/download/v1.0/c0d3s-generator)
 
 ### Modo de usar
 
 ```markdown
+
         -h			Ajuda
 	-l			Tamanho do código
 	-t			Quantidade de códigos
@@ -32,3 +33,4 @@ Mas se preferir pode baixar o binario e ser feliz com ele. [Clica aqui para baix
 		LookThisAlien_oifsbYBkFDAUnmSKKFImnZAED-RightHere
 		LookThisAlien_pxVMpxTqSNkswNuSElcwXXqLM-RightHere
 		LookThisAlien_KyZBuuzwdaGYsQeRYDHeuxhkP-RightHere
+```
