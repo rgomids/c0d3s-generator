@@ -19,6 +19,7 @@ Mas se preferir pode baixar o binario e ser feliz com ele. [Clica aqui para baix
 ### Modo de usar
 
 ```
+
         -h			Ajuda
 	-l			Tamanho do código
 	-t			Quantidade de códigos
