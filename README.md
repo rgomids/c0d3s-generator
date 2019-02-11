@@ -10,7 +10,7 @@ Gera códigos para qualquer coisa que você queira utilizar!
 
 ### Instalação
 
-Se você quiser existe um script no build mais recente do sistema. Serve para Linux x86/64. Para baixar [clique aqui](https://github.com/RafaelGomides/c0d3s-generator/releases/download/v1.0/install.sh).
+Se você quiser existe um script automatizado do build mais recente do sistema temos a solução. Serve para Linux x86/64. Para baixar [clique aqui](https://github.com/RafaelGomides/c0d3s-generator/releases/download/v1.0/install.sh).
 
 Depois de baixar basta atribuir permissão de execução com `sudo chmod 775 /caminho/para/install.sh`. Depois é só executar o script, vá até o diretrio que ele se encontra e digite `./install.sh`. A senha root é necessária para criar alguns diretórios e criar links.
 
@@ -18,8 +18,7 @@ Mas se preferir pode baixar o binario e ser feliz com ele. [Clica aqui para baix
 
 ### Modo de usar
 
-```
-
+```markdown
         -h			Ajuda
 	-l			Tamanho do código
 	-t			Quantidade de códigos
