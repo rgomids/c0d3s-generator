@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+         ___ __ ____ ____ ____      ___ ____ __ _ ____ ____  __ ____ __ ____ 
+        / __/  (    ( __ / ___)___ / __(  __(  ( (  __(  _ \/ _(_  _/  (  _ \
+       ( (_(  0 ) D ((__ \___ (___( (_ \) _)/    /) _) )   /    \)((  O )   /
+        \___\__(____(____(____/    \___(____\_)__(____(__\_\_/\_(__)\__(__\_)
 
-You can use the [editor on GitHub](https://github.com/RafaelGomides/c0d3s-generator/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Mais uma ferramenta poderosíssima para o seu terminal!
+Gera códigos para qualquer coisa que você queira utilizar!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Instalação
 
-```markdown
-Syntax highlighted code block
+Se você quiser existe um script no build mais recente do sistema. Serve para Linux x86/64. Para baixar [clique aqui](https://github.com/RafaelGomides/c0d3s-generator/releases/download/v1.0/install.sh).
 
-# Header 1
-## Header 2
-### Header 3
+Depois de baixar basta atribuir permissão de execução com `sudo chmod 775 /caminho/para/install.sh`. Depois é só executar o script, vá até o diretrio que ele se encontra e digite `./install.sh`. A senha root é necessária para criar alguns diretórios e criar links.
 
-- Bulleted
-- List
+Mas se preferir pode baixar o binario e ser feliz com ele. [Clica aqui para baixar](https://github.com/RafaelGomides/c0d3s-generator/releases/download/v1.0/c0d3s-generator)
 
-1. Numbered
-2. List
+### Modo de usar
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
+        -h			Ajuda
+	-l			Tamanho do código
+	-t			Quantidade de códigos
+	-pf			Prefixo do Código
+	-sf			Sufixo do Código
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RafaelGomides/c0d3s-generator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	Exemplo: ./c0des-generator -l 25 -t 5 -pf LookThisAlien_ -sf -RightHere
+	Saida:
+		LookThisAlien_DodjKGxptKqLhnAofEZzTQEWW-RightHere
+		LookThisAlien_bHQBNyAbpJqScsxVjfGLUFjGq-RightHere
+		LookThisAlien_oifsbYBkFDAUnmSKKFImnZAED-RightHere
+		LookThisAlien_pxVMpxTqSNkswNuSElcwXXqLM-RightHere
+		LookThisAlien_KyZBuuzwdaGYsQeRYDHeuxhkP-RightHere
